@@ -1,0 +1,55 @@
+/* index.css (global CSS) */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+/* Inputs */
+input,
+select {
+  padding: 8px;
+  font-size: 1rem;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  font-size: 1rem;
+  background-color: #000204;
+  color: white;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #020e1a;
+}
+
+/* Container spacing */
+div {
+  margin-bottom: 20px;
+}

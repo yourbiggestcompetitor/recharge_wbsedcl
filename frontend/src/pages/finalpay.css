@@ -1,0 +1,63 @@
+.payment-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #f5f7fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.payment-info {
+  margin-bottom: 20px;
+  background-color: #e8edf3;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.payment-form label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.payment-form input,
+.payment-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.payment-form button {
+  padding: 12px;
+  background-color: #010813;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment-form button:hover {
+  background-color: #2563eb;
+}
+
+.payment-error {
+  color: #e02424;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.payment-success {
+  color: #16a34a;
+  font-weight: 600;
+  margin-top: 10px;
+}
