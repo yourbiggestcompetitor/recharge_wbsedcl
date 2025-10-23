@@ -45,5 +45,5 @@ Built during a hands-on internship at WBSEDCL, this project integrates modern we
 
 ---
 
-## 🗂 Folder Structure
+
 
